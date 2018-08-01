@@ -73,7 +73,6 @@ class MSpawns extends PluginBase {
         $this->getCommand("hub")->setExecutor(new Commands\Hub($this));
         $this->getCommand("delspawn")->setExecutor(new Commands\DelSpawn($this));
         $this->getCommand("setspawn")->setExecutor(new Commands\SetSpawn($this));
-        $this->getCommand("spawn")->setExecutor(new Commands\Spawn($this));
         $this->getCommand("delalias")->setExecutor(new Commands\DelAlias($this));
         $this->getCommand("setalias")->setExecutor(new Commands\SetAlias($this));
         $this->getCommand("mspawns")->setExecutor(new Commands\Commands($this));
